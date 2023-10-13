@@ -1,0 +1,41 @@
+# C/C++ build directories
+build/
+CMakeFiles/
+CMakeScripts/
+CMakeCache.txt
+CMakeFiles.txt
+CMakeSettings.json
+
+# Zig build directories
+zig-out/
+
+# Rust build directories
+target/
+Cargo.lock
+Cargo.toml.orig
+.crates.toml
+.build/
+
+# Editor and IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.user
+*.sln
+*.swp
+
+# Compiled object files and libraries
+*.o
+*.a
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.out
+
+# Linux and macOS specific files/directories
+.DS_Store        # macOS desktop services store files
+Thumbs.db        # Windows thumbnail cache
